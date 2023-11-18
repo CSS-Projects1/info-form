@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Georgia, "Times New Roman", Times, serif;
+    /* height: 750px; */
+    background-image: linear-gradient(to left,#16213E,#16213E,#16213E,black);
+    
+}
+.container{
+    width: 700px;
+    margin:45px auto;
+    color: white;
+    background-color: black;
+}
+img{
+    width: 350px;
+    float: left;
+}
+ form fieldset{
+    border: 2px solid black;
+}
+form .center{
+    width: 300px;
+    height: 500px;
+    margin: 0 20px;
+    padding-top: 100px;
+    float: right;
+    /* background-color: aqua; */
+}
+form h1{
+    margin-bottom: 20px;
+}
+
+form input ,
+select{
+    width:inherit;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.415);
+}
+form input[type="submit"] {
+    background-image: linear-gradient(to right,#16213E,rgba(23, 23, 23, 0.722));
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+::placeholder{
+    color: white;
+}
+
